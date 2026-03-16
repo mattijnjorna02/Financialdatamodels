@@ -12,16 +12,14 @@ This notebook will:
 *  Build a trading strategy
 *  Backtest with realistic assumptions
 
-usage:
-!pip install yfinance arch statsmodels --quiet
-!pip install quantstats
+#Tools
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import yfinance as yf
-import quantstats as qs
+Python
+pandas
+numpy
+yfinance
+matplotlib
 
-from scipy.stats import norm
-from arch import arch_model
-from statsmodels.tsa.arima.model import ARIMA
+#Author
+
+Mattijn Jorna
